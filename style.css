@@ -27,7 +27,11 @@ li {
 
 .header, .section-one {
     color: white;
+}
+
+.header, .section-one, .section-two {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
 .logo {
@@ -101,4 +105,39 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section-two {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image {
+    border: 4px solid #3882f6;
+    height: 200px;
+    width: 200px;
+    border-radius: 16px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 200px;
+    gap: 15px;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.section-two h2 {
+    margin: 40px 0;
+    font-weight: 700;
+    font-size: 36px;
+    color: #2a3b53
 }
